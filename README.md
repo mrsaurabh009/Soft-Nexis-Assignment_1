@@ -3,6 +3,8 @@
 A fully responsive and modern personal portfolio website designed to showcase your skills, projects, and contact information. Built with clean HTML5 and CSS3 using Flexbox and CSS Grid for layout, it adapts beautifully across all screen sizes — from desktop to mobile.
 
 ---
+# Live: [Click Here](https://mrsaurabh009.github.io/Soft-Nexis-Assignment_1/)
+---
 
 ## ✨ Features
 
