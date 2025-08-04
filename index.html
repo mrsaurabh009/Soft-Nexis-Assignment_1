@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="navbar">
+      <div class="nav-brand">MyPortfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">☰</div>
+      </nav>
+    </header>
+
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm Saurabh Kumar</h1>
+        <p>
+          I’m a final-year B.Tech student specializing in Computer Engineering,
+          passionate about solving real-world problems through technology. With
+          a strong foundation in programming languages like Python and hands-on
+          experience with AI/ML And Ethical Hacking, I aim to build innovative
+          solutions in software development and Cyber Security. I’m excited to
+          collaborate with like-minded professionals and contribute to impactful
+          projects. Open to internship and job opportunities in software
+          development and AI/ML.
+        </p>
+        <a href="contact.html" class="btn-primary">Get in Touch</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="Profile Image" />
+      </div>
+    </section>
+
+    <section class="features-grid">
+      <div class="feature-card">
+        <h3>Skillls</h3>
+        <p>Full Stack | AI ML | Ethical Hacking</p>
+      </div>
+      <div class="feature-card">
+        <h3>Development</h3>
+        <p>Scalable frontend and backend code architecture.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Performance</h3>
+        <p>Optimized code and fast-loading websites.</p>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+    </footer>
+
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
